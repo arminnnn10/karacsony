@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karácsonyi Ajándékok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="text-center my-5">Karácsonyi Ajándék Szavazás</h1>
+    <div class="row">
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Percs
+                </div>
+                <div class="card-body">
+                    <img src="https://i1.sndcdn.com/artworks-WiRXyQoIoHcntBIR-XBMrXA-t500x500.jpg" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(0)">Szavazok</button>
+                    <p class="vote-count" id="vote-0">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Hellcat
+                </div>
+                <div class="card-body">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShZM9Yu2OFwImJBVDXKCdr17qcacwDv3oCSw&s" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(1)">Szavazok</button>
+                    <p class="vote-count" id="vote-1">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Raf Simons Riot Jacket
+                </div>
+                <div class="card-body">
+                    <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F08%2Fraf-simons-riot-jacket-bomber-jacket-hype-history-0-1.jpg?q=75&w=800&cbr=1&fit=max" alt="Játék Konzol" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(2)">Szavazok</button>
+                    <p class="vote-count" id="vote-2">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Blaisan Barátnő
+                </div>
+                <div class="card-body">
+                    <img src="https://i.pinimg.com/550x/f3/f7/7f/f3f77fa3b1f2139e8c9be4f6463ac88c.jpg" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(3)">Szavazok</button>
+                    <p class="vote-count" id="vote-3">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Jack JK-58750J-405 automata tűrúdkikapcsolós nagy greiferes ipari kéttűs varrógép, európai asztallal
+                </div>
+                <div class="card-body">
+                    <img src="https://varrogepcentrum.hu/uploads/products/gallery_thumbnail/jack-58750g-405-turudkikapcsolos-nagy-greiferes-kettus-ipari-varrogep.jpg" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(4)">Szavazok</button>
+                    <p class="vote-count" id="vote-4">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Rolling Loud Koncertjegy
+                </div>
+                <div class="card-body">
+                    <img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2024/12/11/USAT/76931088007-rolling-loud-2024.jpg?width=1320&height=744&fit=crop&format=pjpg&auto=webp" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(5)">Szavazok</button>
+                    <p class="vote-count" id="vote-5">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Future DS2 2022 Record Store Day Exclusive 2XLP Vinyl Teal - DE
+                </div>
+                <div class="card-body">
+                    <img src="https://images.stockx.com/images/Future-DS2-2022-Record-Store-Day-Exclusive-2XLP-Vinyl-Teal.jpg?fit=fill&bg=FFFFFF&w=576&h=384&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1651022383&q=75" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(6)">Szavazok</button>
+                    <p class="vote-count" id="vote-6">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Mogyoróvaj
+                </div>
+                <div class="card-body">
+                    <img src="https://th.bing.com/th/id/R.6186dfa4f947d81cd6b65405cdc10d44?rik=kft1iXQgLLnxDg&pid=ImgRaw&r=0" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(7)">Szavazok</button>
+                    <p class="vote-count" id="vote-7">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Mini Pablo
+                </div>
+                <div class="card-body">
+                    <img src="https://th.bing.com/th/id/OIP.x50rYXW-1uu_hR8oMp63ywHaHa?rs=1&pid=ImgDetMain" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(8)">Szavazok</button>
+                    <p class="vote-count" id="vote-8">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Chrome Hearts Gyűrű
+                </div>
+                <div class="card-body">
+                    <img src="https://th.bing.com/th/id/OIP.trQ50yRwbS5b2Fl--Rq39wHaJx?rs=1&pid=ImgDetMain" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(9)">Szavazok</button>
+                    <p class="vote-count" id="vote-9">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Gamer Pc
+                </div>
+                <div class="card-body">
+                    <img src="https://i.pepita.hu/images/product/18374186/imperium-core-i7-super-blade-ti-rtx-pc-i7-14700f-b760tuf-32gb-ddr5-ram-2tb-ssd-rtx-4070tis-h5-flow-fsp850-lc240-wh-v141-gamer-szamitogep_113830985_500x500.jpg" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(10)">Szavazok</button>
+                    <p class="vote-count" id="vote-10">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Fortnite Battlepass
+                </div>
+                <div class="card-body">
+                    <img src="https://th.bing.com/th/id/OIP.OyfFdb_5Q6nw0uHaqi2mtAHaEK?w=284&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" class="card-img">
+                    <p>Szavazz, ha tetszik az ajándék!</p>
+                    <button class="btn btn-vote" onclick="increaseVote(11)">Szavazok</button>
+                    <p class="vote-count" id="vote-11">Szavazatok: 0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="scrpt.js"></script>
+</body>
+</html>

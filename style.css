@@ -1,0 +1,97 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp3850586.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    color: #f1c40f;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.row {
+    display: flex;            /* Flexbox aktiválása */
+    flex-wrap: wrap;          /* Engedjük meg, hogy a kártyák több sorra törjenek, ha szükséges */
+    justify-content: space-around; /* A kártyák egyenletes elosztása */
+    gap: 20px;                /* Kártyák közötti távolság */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 280px;             /* Kártyák fix szélessége */
+}
+
+.card-header {
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    padding-left: 50px; /* Helyet adunk a Mikulásnak */
+}
+
+.card-header:before {
+    content: url('https://cdn.pixabay.com/photo/2016/11/21/16/14/santa-claus-1841410_960_720.png');
+    position: absolute;
+    left: 10px; /* Mikulás elhelyezése balra */
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-img {
+    width: 100%;            /* Kép szélességét 100%-ra állítjuk */
+    height: auto;           /* A magasság automatikusan arányosan változik */
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-vote {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-vote:hover {
+    background-color: #2ecc71;
+}
+
+.vote-count {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Karácsonyi díszítő elemek */
+.card-body:before {
+    content: url('https://cdn.pixabay.com/photo/2015/12/21/08/58/snow-1093317_960_720.png');
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
